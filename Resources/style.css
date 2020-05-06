@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Merriweather:wght@300&display=swap");
+.header-bg {
+  background-image: linear-gradient(to right, #3498dbd5, #297fb9d3),
+    url(./Images/header_bg.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 89%, 0% 100%);
+}
+.jum {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+.lead,
+hire,
+button {
+  padding-top: 1.5rem;
+}
+.logo {
+  font-family: "Pacifico", cursive;
+  text-decoration: none;
+}
+.logo-light {
+  color: white;
+  font-size: 1.5rem;
+}
+.logo-light:hover {
+  text-decoration: none;
+  color: white;
+}
+.nav-item {
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 0 10px;
+}
+.nav-link {
+  color: white;
+}
+.iconss {
+  display: inline;
+}
+.bg-imgg {
+  background-image: url(./Images/bars-solid.svg);
+  background-size: 100% 100%;
+}
+.jumbotron {
+  background: none !important;
+}
+.display-4 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  color: white;
+}
+.lead {
+  width: 70%;
+  color: white;
+  font-family: "Courgette", cursive;
+}
+.hire {
+  color: white;
+  font-weight: 300;
+  font-family: "Merriweather", serif;
+}
+.projects-sec {
+  padding-top: 5rem;
+}
+
+.projects {
+  padding-bottom: 60px;
+}
+.project-title {
+  font-size: 1.1rem;
+  padding-bottom: 10px;
+}
+.project-para {
+  width: 50%;
+  padding-bottom: 4px;
+}
+.project-link {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.project-str {
+  border: 1px solid rgb(68, 68, 68);
+  padding: 0 10px;
+}
+
+.project-row {
+  padding: 10px 0;
+}
+.section-title {
+  padding-top: 50px;
+  text-align: center;
+}
+
+/* Skill Images section */
+.skill-imgs {
+  width: 65%;
+  padding: 1.5rem 0;
+  display: block;
+  margin: auto;
+}
+/* Skill titles */
+.skill-text {
+  text-align: center;
+}
+.bootstrap-img {
+  width: 20%;
+  padding-top: 18px;
+}
+.nodejs {
+  width: 30%;
+}
+
+/* Tools section */
+.tools-bg {
+  background-image: linear-gradient(to right, #f5f6fa, #f9f9f9);
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+  padding: 8rem 0;
+}
+.tool-title {
+  text-align: center;
+}
+
+.tool-img {
+  width: 30%;
+}
+
+.fa-heart {
+  color: #d63031;
+}
+.contact-form {
+  padding: 20px 0;
+}
+.inp-fld {
+  padding: 10px 20px;
+}
+.copyright-text1 {
+  text-decoration: none;
+  color: black;
+}
+.copyright-text1:hover {
+  text-decoration: none;
+  color: rgb(80, 80, 248);
+}
+
+.footer-nav {
+  float: right;
+  list-style-type: none;
+}
+.footer-links {
+  padding: 0 10px;
+}
