@@ -179,6 +179,37 @@ button {
   text-decoration: none;
 }
 
+.footer-bg {
+  background-image: linear-gradient(to right bottom, #2980b9, #2980b9);
+}
+
+.icons-center {
+  text-align: center;
+}
+.py-3 {
+  background-color: #2472a4;
+  color: white;
+}
+.py-3:hover {
+  color: white;
+}
+
+.icons-center a {
+  text-decoration: none;
+  color: white;
+}
+.fb-ic:hover {
+  color: #3b5998;
+}
+.tw-ic:hover {
+  color: #00acee;
+}
+.li-ic:hover {
+  color: #00acee;
+}
+.inc-ic:hover {
+  color: #3f729b;
+}
 /* Responsive meida quories for mobile */
 
 @media (max-width: 500px) {
