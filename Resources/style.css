@@ -178,3 +178,27 @@ button {
   color: black;
   text-decoration: none;
 }
+
+/* Responsive meida quories for mobile */
+
+@media (max-width: 500px) {
+  .jum {
+    padding-top: 0px;
+  }
+  .display-4,
+  .lead,
+  .hire,
+  .btn-git {
+    text-align: center;
+  }
+  .lead {
+    width: 100%;
+  }
+  .display-4 {
+    font-size: 35px !important;
+  }
+  .btn-center {
+    position: absolute;
+    left: 32%;
+  }
+}
