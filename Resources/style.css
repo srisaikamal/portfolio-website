@@ -210,6 +210,22 @@ button {
 .inc-ic:hover {
   color: #3f729b;
 }
+
+.netlify {
+  width: 8%;
+  height: auto;
+}
+.fa-github {
+  color: black;
+}
+
+.gitlink {
+  color: white;
+}
+.gitlink:hover {
+  color: rgb(194, 193, 193);
+}
+
 /* Responsive meida quories for mobile */
 
 @media (max-width: 500px) {
@@ -231,5 +247,9 @@ button {
   .btn-center {
     position: absolute;
     left: 32%;
+  }
+  .netlify {
+    width: 20%;
+    height: auto;
   }
 }
