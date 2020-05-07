@@ -2,6 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courgette&family=Merriweather:wght@300&display=swap");
+
+* {
+  scroll-behavior: smooth;
+}
+
 .header-bg {
   background-image: linear-gradient(to right, #3498dbd5, #297fb9d3),
     url(./Images/header_bg.jpg);
@@ -39,6 +44,9 @@ button {
 }
 .nav-link {
   color: white;
+}
+.nav-link:hover {
+  color: rgb(204, 204, 204);
 }
 .iconss {
   display: inline;
@@ -105,6 +113,10 @@ button {
   padding: 1.5rem 0;
   display: block;
   margin: auto;
+}
+
+.android-logo {
+  width: 18%;
 }
 /* Skill titles */
 .skill-text {
