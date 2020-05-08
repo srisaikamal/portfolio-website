@@ -204,8 +204,11 @@ button {
 
 .icons-center a {
   text-decoration: none;
-  color: black;
 }
+.fb-ic {
+  color: #3b5998;
+}
+
 .fb-ic:hover {
   color: #3b5998;
 }
@@ -233,7 +236,27 @@ button {
 .gitlink:hover {
   color: rgb(194, 193, 193);
 }
-
+.contact {
+  padding: 50px 50px;
+}
+.contact-center {
+  text-align: center;
+}
+.contact-center h1 {
+  margin-bottom: 50px;
+}
+.contact-center button {
+  background-image: linear-gradient(to right, #3498db, #2980b9);
+}
+.contact-center a {
+  font-weight: 400;
+  color: white;
+}
+.contact-center a:hover {
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+}
 /* Responsive meida quories for mobile */
 
 @media (max-width: 500px) {
