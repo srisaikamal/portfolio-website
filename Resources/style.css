@@ -109,6 +109,15 @@ button {
 .project-row {
   padding: 10px 0;
 }
+.card-title,
+.card-text {
+  text-align: center;
+}
+
+.btn-project {
+  margin-left: 6rem;
+}
+
 .section-title {
   padding-top: 50px;
   text-align: center;
